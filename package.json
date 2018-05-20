@@ -1,0 +1,8 @@
+{
+  "name": "appshop",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@kimfiedler/scripts": "^1.0.1"
+  }
+}

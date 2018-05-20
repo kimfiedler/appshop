@@ -1,0 +1,30 @@
+{
+  "name": "@appshop/jay",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "kimfiedler-scripts build",
+    "watch": "kimfiedler-scripts build --watch",
+    "flow": "kimfiedler-scripts flow",
+    "lint": "kimfiedler-scripts lint src",
+    "precommit": "kimfiedler-scripts precommit",
+    "test": "kimfiedler-scripts test"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.2",
+    "apollo-client": "^2.3.2",
+    "apollo-link": "^1.2.2",
+    "apollo-link-error": "^1.0.9",
+    "apollo-link-http": "^1.5.4",
+    "columnify": "^1.5.4",
+    "cross-spawn": "^6.0.5",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "node-fetch": "^2.1.2",
+    "read-pkg-up": "^3.0.0",
+    "superagent": "^3.8.3",
+    "tar": "^4.4.4",
+    "tmp": "^0.0.33"
+  }
+}
